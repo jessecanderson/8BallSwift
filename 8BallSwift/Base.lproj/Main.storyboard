@@ -28,20 +28,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAN-GA-ZUI">
-                                <rect key="frame" x="146" y="165" width="308" height="187"/>
+                                <rect key="frame" x="146" y="165" width="308" height="118"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="308" id="irU-Jv-hoW"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have another question? Shake again!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRk-h3-ra0">
-                                <rect key="frame" x="146" y="400" width="308" height="87"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="87" id="QEd-lg-KpZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -58,15 +48,25 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have another question? Shake again!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRk-h3-ra0">
+                                <rect key="frame" x="146" y="314" width="308" height="87"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="QEd-lg-KpZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VRk-h3-ra0" firstAttribute="top" secondItem="ZAN-GA-ZUI" secondAttribute="bottom" constant="48" id="24d-SL-jqi"/>
+                            <constraint firstItem="VRk-h3-ra0" firstAttribute="top" secondItem="ZAN-GA-ZUI" secondAttribute="bottom" constant="31" id="24d-SL-jqi"/>
                             <constraint firstItem="ZAN-GA-ZUI" firstAttribute="centerX" secondItem="cCk-41-BOv" secondAttribute="centerX" id="9f6-Az-4fM"/>
                             <constraint firstItem="ZAN-GA-ZUI" firstAttribute="top" secondItem="cCk-41-BOv" secondAttribute="bottom" constant="51" id="BnL-AT-JhA"/>
                             <constraint firstItem="VRk-h3-ra0" firstAttribute="leading" secondItem="ZAN-GA-ZUI" secondAttribute="leading" id="NO4-vu-7oZ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VRk-h3-ra0" secondAttribute="bottom" constant="113" id="Xkg-JF-Hr8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VRk-h3-ra0" secondAttribute="bottom" constant="199" id="Xkg-JF-Hr8"/>
                             <constraint firstItem="VRk-h3-ra0" firstAttribute="trailing" secondItem="ZAN-GA-ZUI" secondAttribute="trailing" id="atq-ih-BRQ"/>
                             <constraint firstItem="cCk-41-BOv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jy4-RR-LTw"/>
                             <constraint firstItem="cCk-41-BOv" firstAttribute="centerX" secondItem="xAy-KU-N9c" secondAttribute="centerX" id="p7E-7L-bkD"/>
