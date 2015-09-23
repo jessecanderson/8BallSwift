@@ -13,6 +13,7 @@
 		27C38F251BB23B0A004BFCDE /* _BallSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27C38F231BB23B0A004BFCDE /* _BallSwift.xcdatamodeld */; };
 		27C38F271BB23B0A004BFCDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C38F261BB23B0A004BFCDE /* Assets.xcassets */; };
 		27C38F2A1BB23B0A004BFCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C38F281BB23B0A004BFCDE /* LaunchScreen.storyboard */; };
+		27C38F321BB23DC8004BFCDE /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C38F311BB23DC8004BFCDE /* Answers.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		27C38F261BB23B0A004BFCDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C38F291BB23B0A004BFCDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C38F2B1BB23B0A004BFCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C38F311BB23DC8004BFCDE /* Answers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				27C38F1C1BB23B0A004BFCDE /* AppDelegate.swift */,
 				27C38F1E1BB23B0A004BFCDE /* ViewController.swift */,
 				27C38F201BB23B0A004BFCDE /* Main.storyboard */,
+				27C38F311BB23DC8004BFCDE /* Answers.swift */,
 				27C38F261BB23B0A004BFCDE /* Assets.xcassets */,
 				27C38F281BB23B0A004BFCDE /* LaunchScreen.storyboard */,
 				27C38F2B1BB23B0A004BFCDE /* Info.plist */,
@@ -140,6 +143,7 @@
 				27C38F1F1BB23B0A004BFCDE /* ViewController.swift in Sources */,
 				27C38F251BB23B0A004BFCDE /* _BallSwift.xcdatamodeld in Sources */,
 				27C38F1D1BB23B0A004BFCDE /* AppDelegate.swift in Sources */,
+				27C38F321BB23DC8004BFCDE /* Answers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
