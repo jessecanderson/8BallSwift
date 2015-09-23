@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel2: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var shakeAgainLabel: UILabel!
+    
+    let answer = Answers()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,8 +32,6 @@ class ViewController: UIViewController {
             questionLabel2.hidden = true
             answerLabel.hidden = false
             shakeAgainLabel.hidden = false
-            
-            let answer = Answers()
             
             answerLabel.text = answer.getRandomAnswer()
         }
