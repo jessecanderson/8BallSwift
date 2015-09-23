@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import iAd
+
 
 class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
@@ -19,6 +21,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.canDisplayBannerAds = true
+        
+        resetLabel()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "applicationWillEnterForeground:", name: UIApplicationWillEnterForegroundNotification, object: nil)
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +44,24 @@ class ViewController: UIViewController {
             
             answerLabel.text = answer.getRandomAnswer()
         }
+    }
+    
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+    
+    func applicationWillEnterForeground(notification: NSNotification) {
+        resetLabel()
+        print("Application entering foreground")
+    }
+    
+    func resetLabel() {
+        
+        questionLabel.hidden = false
+        questionLabel2.hidden = false
+        answerLabel.hidden = true
+        shakeAgainLabel.hidden = true
+        
     }
 
 
